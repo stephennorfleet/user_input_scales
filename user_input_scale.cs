@@ -11,7 +11,7 @@ class MainClass {
     choice = Console.ReadLine(); //reads in the user's choice and save it in the memory
     Console.WriteLine ("You chose " + choice + " which is the tone " + 
     tones[Convert.ToInt32(choice)-1]); 
-    
+    Console.WriteLine ("2 + 2 is " + (2 + 2));
   }
 }
  
